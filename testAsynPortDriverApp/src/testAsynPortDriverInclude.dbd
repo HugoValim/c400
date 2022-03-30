@@ -1,0 +1,7 @@
+include "base.dbd"
+include "asyn.dbd"
+include "drvAsynIPPort.dbd"
+registrar(testAsynPortDriverRegister)
+registrar(drvAsynIPPortRegisterCommands)
+registrar(drvAsynSerialPortRegisterCommands)
+registrar(vxi11RegisterCommands)
